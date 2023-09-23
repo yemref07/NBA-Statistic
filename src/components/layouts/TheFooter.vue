@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="grid-item text-white text-center">
-                    <img src="logo.png" alt="" width="100" class="inline-block">
+                    <img src="/logo.png" alt="" width="100" class="inline-block">
                     <h3 class="font-semibold text-md md:text-lg lg:text-2xl">NBA STATS</h3>
                     <p class="mt-5">This website is for educational purposes only and does not intend to infringe on any copyrights or licenses.</p>
                 </div>
