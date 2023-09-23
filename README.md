@@ -1,4 +1,5 @@
 # NBA-Statistic
+https://nba-statistic.netlify.app/
 
 In this project, I had the opportunity to learn many new things.Vue3 Composition API basic features,Developing UI with Tailwind CSS and  State Management with Pinia, Error handling, fetching data from Public API and many things...
 
