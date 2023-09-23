@@ -1,6 +1,10 @@
 # NBA-Statistic
 
-This template should help get you started developing with Vue 3 in Vite.
+In this project, I had the opportunity to learn many new things.Vue3 Composition API basic features,Developing UI with Tailwind CSS and  State Management with Pinia, Error handling, fetching data from Public API and many things...
+
+I can say that Pinia is definitely much more comfortable to use than vuex and redux.
+
+nba-statistic.netlify.app
 
 ## Recommended IDE Setup
 
