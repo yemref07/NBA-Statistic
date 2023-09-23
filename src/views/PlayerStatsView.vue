@@ -128,7 +128,6 @@ const watchRoute = watch(()=>route.params,(toParams)=>{
 // when users press f5 state will be reset so we need make a new http request for players data
 //Or you store the data in local strogae and get there
 onBeforeRouteUpdate((to,from,next)=>{
-  console.log("f5")
   if(to === from){
     const playerName = to.params.playerName; 
     alert("onBeforeRouteUpdate is work")

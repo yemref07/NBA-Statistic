@@ -62,7 +62,6 @@ export const useHistoricalStore = defineStore('historicalData', () => {
     
     try {
       const response = await axios.request(options);
-      console.log(response.data);
     } catch (error) {
       console.error(error);
     }
@@ -72,11 +71,9 @@ export const useHistoricalStore = defineStore('historicalData', () => {
 
           if(response.data.data.length > 0){
               singlePlayerStats.value = response.data;
-              console.log(response.data,"singlePlayerStats",response.data.data.length)
           }
 
           else{
-            console.log(response.data.data.length)
             throw new CustomNotFoundError("Hey, we couldn't find anything. Maybe you wrote the wrong name.")
           }
       } 
@@ -119,7 +116,6 @@ export const useHistoricalStore = defineStore('historicalData', () => {
 
     try {
       const response = await axios.request(options)
-      console.log(response.data)
       allTeam.value = response.data
     } catch (error) {
       console.error(error)
@@ -128,7 +124,6 @@ export const useHistoricalStore = defineStore('historicalData', () => {
 
   const watchAllTeam = watch(allTeam, (newAllTeam) => {
     popularTeamsInfo.value = newAllTeam.data.filter((team) => popularTeams.includes(team.name))
-    console.log(popularTeamsInfo.value)
   });
 
   return {

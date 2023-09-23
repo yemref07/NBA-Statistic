@@ -104,7 +104,6 @@ const isVisible = ref(true)
 const nav = ref(null)
 
 const scrollToSection = () => {
-  console.log('feature sad')
       const section = document.querySelector('#features');
       if (section) {
         section.scrollIntoView({

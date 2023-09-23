@@ -13,7 +13,6 @@ export const useBullStore = defineStore('bullsData',()=>{
     const fetchMatchResult = async function(){
         try{
             const response = await axios.get('./results.json');
-            console.log(response.data,"results")
             matchResults.value = response.data;
         }
         catch(error){
